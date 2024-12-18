@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    color: white;
+}
+.navybar
+{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-evenly;
+   
+}
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo
+{
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+/* .border
+{
+    border: 2px solid transparent;
+} */
+.border:hover
+{
+    border: 2px soild white;
+}
+.ad-first
+{
+    color: #cccccc;
+    font-size: 1rem;
+    padding-right: 12 px;
+   
+}
+.ad-sec
+{
+    margin-left: 5px;
+
+}
+.icon
+{
+    display: flex;
+}
+.search
+{
+    display: flex;
+    
+}
+.select_search
+{
+height: 40px;
+color: black;
+justify-content: space-evenly;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px ;
+
+}
+.input_holder
+{
+    color: black ;
+    border-radius: 4px;
+    font-size: large;
+    width: 500px;
+}
+.search-icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: orange;
+    color: black;
+}
+span{
+    font-size: smaller;
+}
+.Acc{
+    font-size: small;
+font-weight: bolder;
+}
+.Orders
+{
+    font-size: small;
+    font-weight: bolder;
+}
+.search:hover
+{
+    border: 2px solid orange;
+}
+.cart i
+{
+    font-size: 30px;
+}
+.cart{
+    font-size: medium;
+    font-weight: bolder;
+}
+.panel
+{
+    height: 40px;
+    background-color: #222F3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p
+{
+    display: inline;
+    font-size: 15px;
+    padding-left: 15px;
+   
+}
+
+.panel-option{
+    width: 70%;
+}
+.deals
+{
+    font-weight: bolder;
+}
+.hero
+{
+    background-image: url("heroamazon.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.hero-msg
+{
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    font-size: 14px;
+    margin: 100px;
+    margin-bottom: 15px;
+    
+}
+.shop-sec
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E2E7E6;
+    color: black;
+}
+.elec h2
+{
+    color: black;
+}
+.box
+{
+    height: 400px;
+    width: 23%;
+    color: red;
+   
+    color: black;
+    
+    padding: 20px 0px 15px;
+    
+}
+.box_content
+{
+    background-position: initial;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image
+{
+    background-size:contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 300px;
+    width: 300px;
+}
+.shop-sec a{
+    color: blue;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 125px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.beauty_content
+{
+    background-position: initial;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.beauty_image
+{
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 300px;
+    width: 300px;
+}
+.beauty a
+{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 125px;
+    justify-content: right;
+    margin-bottom: 150px;
+}
